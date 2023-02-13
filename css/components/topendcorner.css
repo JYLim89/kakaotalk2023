@@ -1,0 +1,39 @@
+.topEndCorner__index {
+    display:flex;
+    color:#ab9500;
+    justify-content: flex-end;
+    padding: 10px 0px;
+
+}
+
+.topEndCorner__index .divider {
+    width: 1px;
+    background-color:#ab9500;
+    margin: 2px 15px;
+}
+.topEndCorner__index i {
+    margin:0px 10px;
+}
+
+.topEndCorner {
+    display:flex;
+    background-color: white;
+    color:#ABABAB;
+    justify-content: flex-end;
+    position:fixed;
+    top:0;
+    right: 0;
+    width: 100%;
+    align-items: center;
+    padding: 5px 0px;
+}
+
+.topEndCorner a {
+    display: block;
+    color:#ABABAB;
+
+}
+
+.topEndCorner i {
+    margin:0px 5px;
+}

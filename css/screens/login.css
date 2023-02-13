@@ -1,0 +1,151 @@
+body #index {
+    background-color: var(--yellow);
+}
+
+#index {
+    background-color: var(--yellow);
+}
+
+.indexMainLogo {
+    margin-top: 200px;
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+.indexMainLogo img {
+    width: 200px;
+    height: 200px;
+}
+
+.logIn {
+    display: flex;
+    flex-direction:column;
+    margin: 0px 100px;
+}
+
+.logIn input {
+    padding: 15px;
+}
+
+.logIn_input {
+    display: flex;
+    flex-direction:column;
+    position: relative;
+}
+
+.logIn_input input {
+    border: none;  
+}
+
+input::placeholder {
+    color: #BFBFBF;
+}
+
+.logIn_input input:first-child {
+    border: 1px solid #E4CE00;
+    border-bottom: 0.1px solid #F2F2F2;
+    background-image: "image/logo1.png";
+}
+
+.logIn_input input:last-child {
+    border: 1px solid #E4CE00;
+    border-top: none;
+}
+
+.logIn_input i {
+    position: absolute;
+    left: 280px;
+    top: 13px;
+    color: #808080;
+}
+
+.logIn_btn {
+    display: flex;
+    flex-direction:column;
+    margin-top: 5px;
+    position: relative;
+}
+
+.logIn_btn-text {
+    display: flex;
+    flex-basis: 100%;
+    align-items: center;
+    color: #B27200;       
+    margin: 15px 0px;
+    font-size: 12px;
+}
+
+.logIn_btn-text::before {
+    content: "";
+    flex-grow:1;
+    margin: 0px 16px;
+    background-color: #F1D900;
+    height: 1px;
+    font-size: 0px;
+    line-height: 0px;
+}
+
+.logIn_btn-text::after {
+    content: "";
+    flex-grow:1;
+    margin: 0px 16px;
+    background-color: #F1D900;
+    height: 1px;
+    font-size: 0px;
+    line-height: 0px;
+}
+
+.logIn_btn-btn {
+    background-color: #f6f6f6;
+    border: 1px solid #E4CE00;
+    width: 100%;
+    
+}
+
+.logIn_btn-btn:hover {
+    cursor: pointer;
+    
+}
+
+.logIn_btn-btn__qrcode {
+    background-image: url("../../image/qrcode-solid.png");
+    background-size: 10%;
+    background-repeat: no-repeat;
+    background-position: 25%;
+    background-size: 30px 30px;
+}
+
+.logIn_btn-btn:first-child {
+    color:#ACACAC;
+}
+
+.logIn_btn i {
+    position: absolute;
+    left: 70px;
+    bottom: 25px;
+}
+
+.logIn_Auto {
+    display: flex;
+    margin-top: 10px;
+    color: #B27200;
+    align-items: center;
+}
+
+
+
+
+.forgotPassword {
+    margin-top: 100px;
+    display: flex;
+    color:#B27200;
+    justify-content: center;    
+    font-size: 12px;
+}
+
+.forgotPassword .divider {
+    width: 1px;
+    background-color: #B27200;
+    margin: 0px 6px;
+}

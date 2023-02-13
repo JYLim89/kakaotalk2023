@@ -1,0 +1,281 @@
+/************************* 공통 *************************/
+
+.modal-setting__header {
+    margin-top: 20px;
+    padding: 20px 30px;
+    border-bottom: 1px solid #cccccc;
+    font-size: 18px;
+    font-weight: 600;
+    color:#b2b2b2;
+}
+
+.setting__profile,
+.setting__certi,
+.setting__lockmode {
+    margin-top: 50px;
+}
+
+#setting__main {
+    margin-left: 150px;
+
+}
+
+
+.setting__login-title {
+    color:black;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.setting__profile-content {
+    width: 140%;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.setting__control-box {
+    position: absolute;
+    border:1px solid #cccccc;
+    border-radius: 5px;
+    width: 110px;
+    padding: 8px 0px 8px 10px;
+    font-size: 13px;
+    left: 200px;
+    top: 1px;
+}
+.setting__control-box i {
+    position:absolute;
+    left: 100px;
+}
+
+
+.setting__certi-title {
+    margin-bottom: 15px;
+}
+
+.setting__certi-text {
+    color: #b2b2b2;
+    font-size: 12px;
+    padding-right: 10px;
+}
+
+.setting__certi-setting {
+    border:1px solid #cccccc;
+    border-radius: 5px;
+    margin-top: 15px;
+    padding: 7px 0px;
+    width: 110px;
+    text-align: center;
+    font-size: 14px;
+}
+
+/************************* 프로필 *************************/
+
+.setting__profile {
+    position: relative;
+}
+
+.setting__profile-setting {
+    border:1px solid #cccccc;
+    position: absolute;
+    border-radius: 5px;
+    margin-top: 15px;
+    padding: 7px 0px;
+    width: 80px;
+    text-align: center;
+    font-size: 14px;
+    left: 230px;
+    bottom: 85px;
+}
+
+.setting__profile-id {
+    margin-top:30px;
+}
+.setting__profile-row {
+    margin-bottom: 15px;
+    display: flex;
+}
+.setting__profile-idtitle {
+    color:#4c4c4c;
+    font-size: 13px;
+    width: 50px;
+}
+.setting__profile-idtext {
+    margin-left: 20px;
+    font-size: 13px;
+}
+
+.setting__profile {
+    width: 65%;
+}
+
+.setting__profile-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.setting__profile-img {
+    margin-top: 100px;
+    text-align: center;
+}
+.setting__profile-img img {
+    height: 80px;
+}
+
+.setting__profile-header {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.setting__profile-text {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 13px;
+    color: #b2b2b2;
+}
+
+.setting__profile-textbox {
+    border:1px solid #cccccc;
+    border-radius: 5px;
+    margin-top: 15px;
+    padding: 8px 10px;
+    width: 120px;
+    text-align: center;
+    font-size: 14px;
+}
+
+/************************* 알림 *************************/
+.setting__alarm {
+    margin-top:15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.setting__alarm-text1 {
+    font-size: 13px;
+}
+.setting__alarm-text2 {
+    margin-right:100px;
+    font-size: 12px;
+    color:#b2b2b2;
+}
+
+.setting__alarm-setting {
+    border:1px solid #cccccc;
+    border-radius: 5px;
+    padding: 8px 10px;
+    width: 100px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.setting__sound {
+    margin-top: 30px;
+}
+.setting__sound-title {
+    font-size: 18px;
+}
+.slider {
+    -webkit-appearance: none;
+    margin-top: 30px;
+}
+
+.slider {
+    height: 3px;
+    width: 160px;
+    border-radius: 10px;
+    background-color: var(--yellow);
+}
+
+.slider::-webkit-slider-thumb { 
+    -webkit-appearance: none;
+    background: white;
+    cursor: pointer;
+    border: 1px solid #b2b2b2; 
+    height: 14px; width: 14px;   
+    border-radius: 7px;
+  }
+
+.setting-text {
+    font-size: 12px;
+    color:#b2b2b2;
+    margin-top: 15px;
+}
+.setting__sound-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.setting__sound-row-title {
+    font-size:13px;
+}
+
+.setting__sound-row-text {
+    border: 1px solid #b2b2b2; 
+    border-radius: 5px;
+    width: 150px;
+    box-sizing: border-box;
+    margin-right: 10px;
+    padding: 7px;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.controlbox-sm {
+    width: 80px;
+}
+
+/****************** nav ***************/
+
+.modal-setting__nav {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    color:#b2b2b2;
+
+    top:78px;
+    height:100%;
+    width: 120px;
+    font-size: 15px;
+}
+
+.modal-setting__nav a {
+    text-decoration: none;
+    color: #b2b2b2;
+}
+
+.modal-setting__nav {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top:78px;
+    height:100%;
+    width: 120px;
+    font-size: 15px;
+    border-right: 1px solid #cccccc;
+}
+
+.modal-setting__nav a {
+    text-decoration: none;
+    color: #b2b2b2;
+}
+
+.setting__class {
+    margin: 5px 0px;
+    padding: 10px 20px;
+}
+.cha_black {
+    color:black;
+}
+
+.back_palegray {
+    background-color:#f2f2f2;
+}

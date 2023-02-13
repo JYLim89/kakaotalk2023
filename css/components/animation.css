@@ -1,0 +1,12 @@
+.fa-gear:hover {
+    animation: rotate 1.5s ease-in-out infinite;
+}
+
+@keyframes rotate {
+    from {
+        transform:rotatez(0deg);
+    }
+    to {
+        transform:rotatez(360deg);
+    }
+}

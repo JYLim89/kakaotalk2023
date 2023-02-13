@@ -1,0 +1,140 @@
+/********************** nav  **********************/
+.nav {
+    width: 74px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: fixed;
+    left: 0;
+    top:0;
+    background-color: #ECECEE;
+}
+
+.nav .nav__icons:last-child {
+    margin-bottom: 100px;
+}
+
+.nav__icons {
+    margin-top: 30px;
+    
+}
+
+.nav__icons-icon {
+    padding: 25px 25px;
+    color: #343740;
+    position: relative;
+    text-align: center;
+}
+
+.color__gray {
+    color: #acadb0;
+}
+
+.color__gray:hover {
+    color: #8f8b94;
+}
+
+/********************** bell on/off **********************/
+
+
+.alarm__bell2 {
+    position: absolute;
+    background-image: url("../../image/bell-regular.png");
+    display:block;
+    width: 25px; height: 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+    bottom: 13px;
+}
+.alarm__bell2:hover {
+    background-image: url("../../image/bell-regular-hover.png");
+}
+
+#alarm__bell:checked + .alarm__bell2 {    
+    background-image: url("../../image/bell-slash-regular.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 120%;
+    z-index: 99;
+}
+
+#alarm__bell:checked + .alarm__bell2:hover {
+    background-image: url("../../image/bell-slash-regular-hover.png");
+}
+
+#alarm__bell {
+    position: absolute;
+    left: -999px;
+}
+
+
+/********************** nav description **********************/
+.nav__icons-icon {
+    position: relative;
+}
+
+.nav__icons-icon:hover::after {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    content:attr(title);
+    color: black;
+    background-color:#FCFCFC;
+    border: 1px solid #acadb0;
+    font-size: 12px;
+
+    top: 40px;
+    left: 50px;
+}
+
+.nav__icons-icon-2word:hover::after {
+    width: 30px;
+}
+
+.nav__icons-icon-3word:hover::after {
+    width: 40px;
+}
+
+.nav__icons-icon-4word:hover::after {
+    width: 50px;
+}
+
+
+
+/********************** ad **********************/
+
+.ad {
+    display: flex;
+    position: fixed;
+    bottom:0;
+    background-color: #F8F8F8;
+    width: 100%;
+    justify-content: center;
+}
+
+.ad__column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ad__column-img {
+    width: 120px;
+    height: 60px;
+    margin-right: 35px;
+    padding:20px 0px;
+}
+
+
+.ad__column-title {
+    margin-bottom: 10px;
+    font-size:13px;
+    font-weight: 600;
+}
+
+.ad__column-text {
+    font-size: 12px;
+}

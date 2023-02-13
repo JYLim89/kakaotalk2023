@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Log-in</title>
+</head>
+<body id="index">
+    
+    <div class="topEndCorner__index">
+        <i class="fa-solid fa-gear"></i>
+        <div class="divider"></div>
+        <i class="fa-solid fa-minus"></i>
+        <i class="fa-solid fa-xmark"></i>
+    </div>
+    <div class="indexMainLogo">
+        <img src="image/logo1.png">
+    </div>
+    <div class="logIn">      
+
+        <form action="friends.html">
+            <div class="logIn_input">
+                <input type="email" placeholder="카카오계정 (이메일 또는 전화번호)" required />
+                <i class="fa-solid fa-caret-down"></i>
+                <input type="password" placeholder="비밀번호" minlength="10" required />
+            </div>
+            <div class="logIn_btn">
+                <input class="logIn_btn-btn" type="submit" value="로그인">
+                <span class="logIn_btn-text">또는</span>
+                <input class="logIn_btn-btn logIn_btn-btn__qrcode" type="submit" value="QR코드 로그인">
+            </div>
+        </form>
+        
+        <div class="logIn_Auto">
+            <form action="#">
+                <label for="chk">
+                    <input type="checkbox" id="chk">
+                    <i class="circle"></i>
+                    <span class="chk__text">자동로그인<i class="fa-solid fa-circle-exclamation"></i></span>
+                </label>
+            </form>
+
+        </div>
+    </div>
+    <div class="forgotPassword">
+        <span>카카오계정찾기</span>
+        <div class="divider"></div>
+        <span>비밀번호 재설정</span>
+    </div>
+
+    <div id="no-mobile">
+        <i class="fa-solid fa-arrows-left-right-to-line"></i>
+        <span>Screen is too wide to work!!</span>
+    </div>
+
+    <script src="https://kit.fontawesome.com/f7c479344c.js" crossorigin="anonymous"></script>
+
+
+</body>
+
+
+</html>

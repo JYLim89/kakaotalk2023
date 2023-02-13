@@ -1,0 +1,10 @@
+.icon_plus {
+    position:absolute;
+    background-color: white;
+    /* border: 1px solid black; */
+    border-radius: 90%;
+    left: 470px;
+    rotate: z 90deg;
+    font-weight: 600;
+    
+}  

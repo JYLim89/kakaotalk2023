@@ -1,0 +1,57 @@
+@import "reset.css";
+@import "variables.css";
+
+/* screens */
+@import "screens/login.css";
+@import "screens/friends.css";
+@import "screens/chats.css";
+@import "screens/chat.css";
+@import "screens/more.css";
+@import "screens/emoticon.css";
+@import "screens/setting.css";
+
+
+
+/* components */
+@import "components/topendcorner.css";
+@import "components/nav.css";
+@import "components/user-component.css";
+@import "components/screen-header.css";
+@import "components/chk.css";
+@import "components/no-mobile.css";
+@import "components/scroll-bar.css";
+@import "components/animation.css";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+.main-screen {
+    margin-left: var(--horizontal-space);
+    margin-top: 60px;
+    display:flex;
+    flex-direction: column;
+}
+
+#scroll-screen_chats,
+#scroll-screen_friends {
+    height: 160vh;
+}
+
+#scroll-screen_modal,
+#scroll-screen_more {
+    height: 95vh;
+}
+
+.main-screen-more {
+    margin-left: 100px;
+    margin-top: 60px;
+    display:flex;
+    flex-direction: column;
+}
+
+.main-screen a {
+    text-decoration: none;
+}
